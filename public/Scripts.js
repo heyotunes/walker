@@ -24,7 +24,7 @@ let carts = document.querySelectorAll('.addcart');
 let products = [];
 
  async function getProducts() {
-    const response = await axios.get('http://localhost:5000/products')
+    const response = await axios.get('https://walker-app-syjmq.ondigitalocean.app/products')
    console.log(response.data);
    products = response.data.products
 
