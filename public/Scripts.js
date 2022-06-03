@@ -19,12 +19,12 @@ close.addEventListener("click", hamburger2);
 
 
 let carts = document.querySelectorAll('.addcart');
-
-
+let stage = 'prod'
 let products = [];
 
  async function getProducts() {
-    const response = await axios.get('https://walker-app-syjmq.ondigitalocean.app/products')
+     const host = stage == 'dev' ? 'http://localhost:5000' : 'https://walker-app-syjmq.ondigitalocean.app'
+    const response = await axios.get('${host}/products');
    console.log(response.data);
    products = response.data.products
 
