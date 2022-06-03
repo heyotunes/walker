@@ -19,7 +19,7 @@ close.addEventListener("click", hamburger2);
 
 
 let carts = document.querySelectorAll('.addcart');
-let stage = 'prod'
+let stage = 'dev'
 let products = [];
 
  async function getProducts() {
