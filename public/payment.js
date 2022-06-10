@@ -1,4 +1,4 @@
-stage = 'stage';
+stage = 'dev';
 
 const host = stage === 'dev' ? 'http://localhost:5000' : 'https://walker-app-syjmq.ondigitalocean.app'
 
