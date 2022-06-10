@@ -1,11 +1,11 @@
 exports.productsList = [
     {
-        name: 'Nikeswift',
+        name: 'Nikerunners',
         description: 'This is a very nice sneakers',
-        tag: 'nikeswift',
-        price: 150,
+        tag: 'nikerunners',
+        price: 220,
         inCart: 0,
-        image: '/image/nikeswift.svg'
+        image: '/image/nikerunners.svg'
     },
     {
         name: 'Jordan',
@@ -56,11 +56,11 @@ exports.productsList = [
         image: '/image/fila.svg'
     },
     {
-        name: 'Nikerunners',
+        name: 'Nikeswift',
         description: 'This is a very nice sneakers',
-        tag: 'nikerunners',
-        price: 220,
+        tag: 'nikeswift',
+        price: 150,
         inCart: 0,
-        image: '/image/nikerunners.svg'
+        image: '/image/nikeswift.svg'
     }
 ]

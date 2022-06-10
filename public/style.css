@@ -1209,7 +1209,34 @@ footer .copyright{
     color: black;
 }
 
+.buyBtnCtn {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.startCheckout {
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
 
+.startCheckout:hover {
+  background-color: #434343;
+}
+/*------------ checkout success ----------*/
+.checkoutSuccessCtn{
+    background-color: rgb(224, 224, 224);
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    border-radius: 5px;
+}
 
 
 
