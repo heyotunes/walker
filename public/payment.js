@@ -1,6 +1,6 @@
 stage = 'prod';
 
-const host = stage === 'dev' ? 'http://localhost:5000' : 'https://walker-app-syjmq.ondigitalocean.app'
+const host = stage === 'prod' ? 'http://localhost:5000' : 'https://walker-app-syjmq.ondigitalocean.app'
 
 const stripe = Stripe('pk_live_51L6RyAHIGSx0fTGc7GUAnjLqLs5L7X9nomX7C94mtv2DeKdZTp1JwgvQdd1NoyK46hD2lDbdmyFNuRyPgcC0Smwt00FkzpOhtC');
 
