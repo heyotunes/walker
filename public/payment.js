@@ -2,7 +2,7 @@ stage = 'prod';
 
 const host = stage === 'dev' ? 'http://localhost:5000' : 'https://walker-app-syjmq.ondigitalocean.app'
 
-const stripe = Stripe('pk_test_51L6RyAHIGSx0fTGchooZSVLduFg0xGl1wplBqkEyLMKpPeqXig451Qb3yi5tcapzsw0pAEQHzskTuM89nmvE6UaW005hk2wT7r');
+const stripe = Stripe('pk_live_51L6RyAHIGSx0fTGc7GUAnjLqLs5L7X9nomX7C94mtv2DeKdZTp1JwgvQdd1NoyK46hD2lDbdmyFNuRyPgcC0Smwt00FkzpOhtC');
 
 const startCheckout = document.getElementById('startCheckout');
 
